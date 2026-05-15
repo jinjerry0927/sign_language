@@ -1,7 +1,10 @@
-opencv-python
-mediapipe
-tensorflow
-numpy
-scikit-learn
-tqdm
-matplotlib
+# Pinned to versions that were verified working on Python 3.11.0 / Windows 10+
+# (Windows native CPU — no GPU on TF >= 2.11 without WSL2)
+
+opencv-python==4.13.0.92
+mediapipe==0.10.35
+tensorflow==2.21.0
+numpy==2.4.4
+scikit-learn==1.8.0
+tqdm==4.67.3
+matplotlib==3.10.9
